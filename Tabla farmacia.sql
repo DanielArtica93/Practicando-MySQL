@@ -478,29 +478,6 @@ SELECT MIN(sub_total) AS Sub_Total_Mínimo FROM facturas;
 -- MAX: Valor máximo
 SELECT MAX(sub_total) AS Sub_Total_Máximo FROM facturas;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Ponerle un valor por defecto a un atributo al insertarlo
 create table ejemplo2(
 id int auto_increment primary key not null,
